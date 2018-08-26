@@ -11,8 +11,8 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  let n = 100;
-  while (whileLoop(n)) {
-    console.log("Spam");
+  while (whileLoop(n < 100)) {
+    console.log(n);
   }
+    return 'done'
 }
