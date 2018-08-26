@@ -25,6 +25,6 @@ function incrementVariable() {
   do {
   console.log(i);
   incrementVariable();
-} while (array.length <= 9 && incrementVariable());
+} while (array.length < 10 && incrementVariable());
   return array
 }
