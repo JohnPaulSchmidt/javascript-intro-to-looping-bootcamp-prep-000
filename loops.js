@@ -11,7 +11,7 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  while (whileLoop()) {
+  while (whileLoop(n)) {
     console.log("Spam");
   }
 }
