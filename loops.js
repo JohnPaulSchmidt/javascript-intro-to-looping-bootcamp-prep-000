@@ -13,6 +13,7 @@ function forLoop(array) {
 function whileLoop(n) {
   while (whileLoop(n < 100)) {
     console.log(--n);
-  }
-    return 'done'
+  } 
+  else {
+    return 'done'}
 }
